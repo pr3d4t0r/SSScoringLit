@@ -3,10 +3,14 @@
 
 from ssscoring.app import main
 
+import os
+
 import streamlit as st
 
 
 if '__main__' == __name__:
-    st.write('Hello, world!')
-    main()
+    st.set_page_config(layout = 'wide')
+    for entry in os.environ.keys():
+        st.write('%s = %s' % (entry, os.environ[entry]))
+    # main()
 
