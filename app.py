@@ -10,7 +10,7 @@ import streamlit as st
 
 if '__main__' == __name__:
     st.set_page_config(layout = 'wide')
-    for entry in os.environ.keys():
+    for entry in sorted(os.environ.keys()):
         st.write('%s = %s' % (entry, os.environ[entry]))
     # main()
 
