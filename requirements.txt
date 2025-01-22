@@ -1,0 +1,8 @@
+bokeh==2.4.3
+click
+haversine
+importlib-resources
+jupyter_bokeh==3.0.4
+numpy<1.26.4
+ssscoring @ git+https://github.com/edsaac/SSScoring@0023-GUI-prototypes
+streamlit
