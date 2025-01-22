@@ -5,5 +5,5 @@ importlib-resources
 jupyter_bokeh==3.0.4
 numpy<1.26.4
 psutil
-ssscoring @ git+https://github.com/pr3d4t0r/SSScoring@0023-GUI-prototypes
+ssscoring==2.0.0
 streamlit
