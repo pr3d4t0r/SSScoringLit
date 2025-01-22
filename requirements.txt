@@ -4,5 +4,5 @@ haversine
 importlib-resources
 jupyter_bokeh==3.0.4
 numpy<1.26.4
-ssscoring @ git+https://github.com/edsaac/SSScoring@00023-GUI-prototype-c
+ssscoring @ git+https://github.com/pr3d4t0r/SSScoring@0023-GUI-prototypes
 streamlit
