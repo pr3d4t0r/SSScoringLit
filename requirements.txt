@@ -5,5 +5,5 @@ importlib-resources
 jupyter_bokeh==3.0.4
 numpy<1.26.4
 psutil
-ssscoring @ https://github.com/pr3d4t0r/SSScoring@00078-DZ-directory-Python-object
+ssscoring @ git+https://github.com/pr3d4t0r/SSScoring@00078-DZ-directory-Python-object
 streamlit
