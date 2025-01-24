@@ -1,4 +1,4 @@
-# See: https://github.com/pr3d4t0r/SSSCoring/blob/master/LICENSE.txt
+# See: https://github.com/pr3d4t0r/SSSCoringLit/blob/master/LICENSE.txt
 
 
 from ssscoring.app import main
