@@ -1,9 +1,7 @@
 # See: https://github.com/pr3d4t0r/SSSCoringLit/blob/master/LICENSE.txt
 
 
-from ssscoring.app import main
-
-import os
+from ssscoring.apps.ssscoresingle import main
 
 import streamlit as st
 
