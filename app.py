@@ -9,11 +9,11 @@ import streamlit as st
 
 
 if '__main__' == __name__:
-    st.set_page_config(layout = 'wide', page_title='SSScore %s β' % __VERSION__)
+    st.set_page_config(layout = 'wide', page_title='SSScore %s' % __VERSION__)
 
-#     multiScoresPage = st.Page(score_multilple_jumps, title='Multiple Jumps Set', url_path='jumps_set', icon='🔢')
+    multiScoresPage = st.Page(score_multilple_jumps, title='Multiple Jumps Set', url_path='jumps_set', icon='🔢')
     singleScorePage = st.Page(score_single_jump, title='Single Jump', url_path='single_jump', icon='1️⃣')
-#     pageApp = st.navigation([ multiScoresPage, singleScorePage, ])
+    pageApp = st.navigation([ multiScoresPage, singleScorePage, ])
     pageApp = st.navigation([ singleScorePage, ])
     pageApp.run()
 
