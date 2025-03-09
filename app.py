@@ -2,7 +2,7 @@
 
 
 from ssscoring import __VERSION__
-# from ssscoring.ssscoremultiple import main as score_multilple_jumps
+from ssscoring.ssscoremultiple import main as score_multilple_jumps
 from ssscoring.ssscoresingle import main as score_single_jump
 
 import streamlit as st
