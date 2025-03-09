@@ -14,6 +14,5 @@ if '__main__' == __name__:
     multiScoresPage = st.Page(score_multilple_jumps, title='Multiple Jumps Set', url_path='jumps_set', icon='🔢')
     singleScorePage = st.Page(score_single_jump, title='Single Jump', url_path='single_jump', icon='1️⃣')
     pageApp = st.navigation([ multiScoresPage, singleScorePage, ])
-    pageApp = st.navigation([ singleScorePage, ])
     pageApp.run()
 
