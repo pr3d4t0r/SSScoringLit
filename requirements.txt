@@ -6,4 +6,4 @@ jupyter_bokeh==3.0.4
 numpy<1.26.4
 psutil
 ssscoring==2.5.0
-streamlit
+streamlit=1.44.1
