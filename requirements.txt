@@ -5,5 +5,5 @@ importlib-resources
 jupyter_bokeh==3.0.4
 numpy<1.26.4
 psutil
-ssscoring==2.4.6
-streamlit
+ssscoring==2.6.0
+streamlit==1.44.1
