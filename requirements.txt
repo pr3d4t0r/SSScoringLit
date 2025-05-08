@@ -1,9 +1,10 @@
-bokeh==2.4.3
+bokeh
 click
 haversine
 importlib-resources
 jupyter_bokeh==3.0.4
 numpy<1.26.4
 psutil
-ssscoring==2.7.2
+ssscoring==2.7.3
 streamlit==1.44.1
+streamlit_bokeh
